@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_camara" android:icon="@drawable/profile_icon"
+            android:title="My Profile" />
+        <item android:id="@+id/nav_gallery" android:icon="@drawable/calllog_icon"
+            android:title="Call Log" />
+        <item android:id="@+id/nav_slideshow" android:icon="@drawable/contact_icon"
+            android:title="Contact" />
+        <item android:id="@+id/nav_manage" android:icon="@drawable/message_icon"
+            android:title="Messages" />
+        <item android:id="@+id/nav_manage1" android:icon="@drawable/setting_icon"
+            android:title="Settings" />
+        <item android:id="@+id/nav_manage2" android:icon="@drawable/about_icon"
+            android:title="About ChatOut" />
+        <item android:id="@+id/nav_manage3" android:icon="@drawable/logout_icon"
+            android:title="Log out" />
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+            <item android:id="@+id/nav_send" android:icon="@android:drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
